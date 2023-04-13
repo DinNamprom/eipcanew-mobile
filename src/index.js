@@ -5,6 +5,10 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
+import './font/Mitr/Mitr-Regular.ttf';
+import './font/Mitr/Mitr-Medium.ttf';
+import './font/Mitr/Mitr-Bold.ttf';
+import './font/Mitr/Mitr-Light.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

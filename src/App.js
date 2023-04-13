@@ -30,12 +30,11 @@ import HardwareManual from "./pages/HardwareManual"
 import Choose from "./pages/choose"
 import SuggestionHospital2 from "./pages/SuggestionHospital2"
 
-
 function App() {
   return (
     <AuthProvider>
       <Router>
-        <div>
+        <div className="font-face-gr">
           <PrivateRoute exact path="/" component={Home} />
           <Route exact path="/login" component={Login} />
           <Route exact path="/signup" component={SignUp} />

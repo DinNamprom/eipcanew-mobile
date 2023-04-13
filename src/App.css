@@ -102,3 +102,15 @@
     min-width: 196px;
   }
 }
+
+.font-face-gm {
+  font-family: "MitrBold";
+}
+
+.font-face-gl {
+  font-family: "MitrLight";
+}
+
+.font-face-gr {
+  font-family: "MitrRegular";
+}

@@ -74,14 +74,14 @@ const HardwareHistory = ({ history }) => {
 
   
     return(
-        <>
-        <Navbar className="navbar fixed-top navbar-light" expand="lg">
+      <>
+    <Navbar className="navbar fixed-top navbar-light" expand="lg">
       <Container className="container">
       <Navbar.Brand className="navbar-brand logo-image" href="/">
         <img src= {Logo} />
       </Navbar.Brand>
       <Navbar.Toggle
-        className="navbar-toggler p-0 border-0"
+        className="navbar-toggler p-0 border-0 ml-auto mr-3"
         type="button"
         data-toggle="offcanvas"
         aria-controls="basic-navbar-nav"
@@ -120,13 +120,14 @@ const HardwareHistory = ({ history }) => {
     </Container>
   </Navbar>
   
+  <div className="font-face-gr">
   <header  className="ex-header bg-gray  " style={{zIndex: "1"}}  >
     <div className="container" >
       <div className="row">
         <div className="col-xl-10 offset-xl-1" >
               
           <center>
-          <h1 >ประวัติการตรวจวัดค่า กราฟคลื่นไฟฟ้าหัวใจ ด้วยอุปกรณ์</h1>
+          <h1 className="font-face-gm">ประวัติการตรวจวัดค่า กราฟคลื่นไฟฟ้าหัวใจ ด้วยอุปกรณ์</h1>
           <div class="form-group col-sm-8 col-form-label mb-2">
                 
                 <input type="email" class="form-control" id="exampleInputEmail1" placeholder = "กรอกเลขเครื่อง" aria-describedby="emailHelp" maxlength="4"
@@ -144,6 +145,8 @@ const HardwareHistory = ({ history }) => {
     </div>{" "}
     {/* end of container */}
   </header>{" "}
+  </div>
+  
   
  
 

@@ -41,7 +41,7 @@ const About = ({history}) => {
         <img src= {Logo} />
       </Navbar.Brand>
       <Navbar.Toggle
-        className="navbar-toggler p-0 border-0"
+        className="navbar-toggler p-0 border-0 ml-auto mr-3"
         type="button"
         data-toggle="offcanvas"
         aria-controls="basic-navbar-nav"
@@ -109,7 +109,7 @@ const About = ({history}) => {
               Electrocardiogram Interpretation Pattern for Symptom Predictions
               of Arrythmia.
             </h5>
-            <p className="mb-2">
+            <p className="mb-2 font-face-gl">
               EIPCA
               โปรแกรมช่วยคัดกรองภาวะหัวใจวายเฉียบพลันจากภาวะหัวใจเต้นผิดจังหวะ
               จากกราฟคลื่นไฟฟ้าหัวใจด้วยปัญญาประดิษฐ์
@@ -158,8 +158,8 @@ const About = ({history}) => {
             <h6 className="text-secondary text-uppercase font-weight-medium mb-3">
               Our Features
             </h6>
-            <h1 className="mb-4">ทำไมต้องเป็นเรา</h1>
-            <p>
+            <h1 className="mb-4 font-face-gm">ทำไมต้องเป็นเรา</h1>
+            <p className="font-face-gl">
               เพราะ EIPCA
               เป็นเครื่องมือที่พัฒนาขึ้นเพื่อคัดกรองและประเมินความเสี่ยงของผู้ป่วยหัวใจหยุดเต้นเฉียบพลันจากภาวะหัวใจเต้นผิดจังหวะ
               โดยการอ่านและตรวจหาคลื่นไฟฟ้าหัวใจที่ผิดปกติด้วยเทคโนโลยีปัญญาประดิษฐ์และการวิเคราะห์แบบประเมินความเสี่ยงตามเกณฑ์การประเมินมาตรฐาน
@@ -191,7 +191,7 @@ const About = ({history}) => {
             <h6 className="text-secondary text-uppercase font-weight-medium mb-3">
               Learn About Us
             </h6>
-            <h1 className="" font-color="#ffffff">
+            <h1 className="font-face-gm" font-color="#ffffff">
               {" "}
               ความร่วมมือ
             </h1>
@@ -199,7 +199,7 @@ const About = ({history}) => {
               Electrocardiogram Interpretation Pattern for Symptom Predictions
               of Arrythmia.
             </h5>
-            <p className="mb-2">
+            <p className="mb-2 font-face-gl">
               EIPCA
               โปรแกรมช่วยคัดกรองภาวะหัวใจวายเฉียบพลันจากภาวะหัวใจเต้นผิดจังหวะ
               จากกราฟคลื่นไฟฟ้าหัวใจด้วยปัญญาประดิษฐ์
@@ -235,8 +235,8 @@ const About = ({history}) => {
       <div className="row">
         <div className="col-lg-12">
           <div className="footer-col first">
-            <h6>เกี่ยวกับ EIPCA</h6>
-            <p className="p-small">
+            <h6 className="font-face-gm">เกี่ยวกับ EIPCA</h6>
+            <p className="p-small font-face-gl">
               EIPCA ย่อมาจาก Electrocardiogram Interpretation Pattern for
               Symptom Predictions of Arrythmia. หรือ
               โปรแกรมเพื่อช่วยคัดกรองภาวะหัวใจวายเฉียบพลัน
@@ -247,8 +247,8 @@ const About = ({history}) => {
           </div>{" "}
           {/* end of footer-col */}
           <div className="footer-col second">
-            <h6>ติดต่อเรา</h6>
-            <ul className="list-unstyled li-space-lg p-small">
+            <h6 className="font-face-gm">ติดต่อเรา</h6>
+            <ul className="list-unstyled li-space-lg p-small font-face-gl">
               <p>
                 <i className="fa fa-map-marker-alt mr-2" />
                 EIPCA Team 

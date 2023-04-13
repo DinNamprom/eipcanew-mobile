@@ -63,7 +63,7 @@ const Home = ({history}) => {
         <img src= {Logo} />
       </Navbar.Brand>
       <Navbar.Toggle
-        className="navbar-toggler p-0 border-0"
+        className="navbar-toggler p-0 border-0 ml-auto mr-3"
         type="button"
         data-toggle="offcanvas"
         aria-controls="basic-navbar-nav"
@@ -111,7 +111,7 @@ const Home = ({history}) => {
     
       
       
-    <header id="header" className="header" backgroundcolor="Green">
+    <header id="header" className="header font-face-gm" backgroundcolor="Green">
     <div className="container">
       <div className="row">
         <div className="col-lg-6 col-xl-5">
@@ -383,7 +383,7 @@ const Home = ({history}) => {
       <div className="container">
         <div className="row">
           <div className="col-lg-12">
-            <h1 className="h2-heading">ข่าวสารจาก EIPCA</h1>
+            <h1 className="h2-heading font-face-gm">ข่าวสารจาก EIPCA</h1>
             
             <br />
             <br />
@@ -457,8 +457,8 @@ const Home = ({history}) => {
       <div className="row">
         <div className="col-lg-12">
           <div className="footer-col first">
-            <h6>เกี่ยวกับ EIPCA</h6>
-            <p className="p-small">
+            <h6 className="font-face-gm">เกี่ยวกับ EIPCA</h6>
+            <p className="p-small font-face-gl">
               EIPCA ย่อมาจาก Electrocardiogram Interpretation Pattern for
               Symptom Predictions of Arrythmia. หรือ
               โปรแกรมเพื่อช่วยคัดกรองภาวะหัวใจวายเฉียบพลัน
@@ -468,9 +468,9 @@ const Home = ({history}) => {
             </p>
           </div>{" "}
           {/* end of footer-col */}
-          <div className="footer-col second">
-            <h6>ติดต่อเรา</h6>
-            <ul className="list-unstyled li-space-lg p-small">
+          <div className="footer-col second font-face-gm">
+            <h6 className="font-face-gm">ติดต่อเรา</h6>
+            <ul className="list-unstyled li-space-lg p-small font-face-gl">
               <p>
                 <i className="fa fa-map-marker-alt mr-2" />
                 EIPCA Team 
@@ -486,7 +486,7 @@ const Home = ({history}) => {
             </ul>
           </div>{" "}
           {/* end of footer-col */}
-          <div className="footer-col third">
+          <div className="footer-col third font-face-gm">
             <span className="fa-stack">
               <a href="#your-link">
                 <i className="fas fa-circle fa-stack-2x" />

@@ -11,3 +11,24 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: "MitrBold";
+  src: local("MitrBold"),
+   url("./font/Mitr/Mitr-Medium.ttf") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "MitrLight";
+  src: local("MitrLight"),
+   url("./font/Mitr/Mitr-Light.ttf") format("truetype");
+  font-weight: bold;
+}
+  
+@font-face {
+  font-family: "MitrRegular";
+  src: local("MitrRegular"),
+   url("./font/Mitr/Mitr-Regular.ttf") format("truetype");
+  font-weight: bold;
+}
