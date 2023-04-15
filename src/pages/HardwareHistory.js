@@ -380,7 +380,7 @@ const Frame = ({ Results, Status, Time, File, History}) => {
 
   {isDataShown && Status === "Plotted and Predicted" && (
     <div className="py-3 fs-5" style={{backgroundColor: ""}}>
-      <h2>ผลการตรวจสอบ</h2>
+      <h2 className="font-face-gm">ผลการตรวจสอบ</h2>
         <div>{ResultInput}</div>
     <br/>
     <br/>
