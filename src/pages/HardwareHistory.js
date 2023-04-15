@@ -28,6 +28,8 @@ const HardwareHistory = ({ history }) => {
 
     const links = document.querySelectorAll('.profile-info li a');
 
+    const [sidebar, setSidebar] = useState(true);
+
     links.forEach(link => {
       link.addEventListener('mouseenter', () => {
         link.style.backgroundColor = '#3E8E41';
@@ -43,7 +45,9 @@ const HardwareHistory = ({ history }) => {
         setSerial(serialvalue);
     }
     
-    
+    const ToggleSideBar = () => {
+      setSidebar(!sidebar);
+    }
     
 
     
@@ -72,6 +76,7 @@ const HardwareHistory = ({ history }) => {
     return unsubscribe;
   }, [db, serial])
 
+  
   
     return(
       <>
@@ -109,7 +114,7 @@ const HardwareHistory = ({ history }) => {
         </center>
         <center>
           <li className="nav-item">
-            <a className= "mx-3" href="/HardwareHistory">
+            <a className= "mx-3" onClick={ToggleSideBar}>
               <img style={{width: "40px", height: "40px"}} src= "https://cdn-icons-png.flaticon.com/512/6522/6522516.png"  />
           </a>
           </li>
@@ -119,13 +124,13 @@ const HardwareHistory = ({ history }) => {
       </Navbar.Collapse>
     </Container>
   </Navbar>
-  
+
+
   <div className="font-face-gr">
   <header  className="ex-header bg-gray  " style={{zIndex: "1"}}  >
     <div className="container" >
       <div className="row">
         <div className="col-xl-10 offset-xl-1" >
-              
           <center>
           <h1 className="font-face-gm">ประวัติการตรวจวัดค่า กราฟคลื่นไฟฟ้าหัวใจ ด้วยอุปกรณ์</h1>
           <div class="form-group col-sm-8 col-form-label mb-2">
@@ -151,9 +156,9 @@ const HardwareHistory = ({ history }) => {
  
 
 
-  <center>      
+  <center>
   <div style={{marginBottom: "17%"}}>.</div>
-  {/* <div className="sidenav">
+  <div className="sidenav" style={{left: sidebar ? "0" : '-100%', transition: "350ms", width: "60%" }} sidebar={sidebar}>
               <center>
               <div class="mx-auto py-4 fs-1  mt-5">
               
@@ -175,7 +180,7 @@ const HardwareHistory = ({ history }) => {
               <button className="btn-solid-lg " onClick={handleClick} >
                 ตรวจผลการวัดค่า
                 </button>
-  </div> */}
+  </div>
   
   </center>
   
