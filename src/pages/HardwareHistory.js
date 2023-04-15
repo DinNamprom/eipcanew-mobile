@@ -179,6 +179,7 @@ const HardwareHistory = ({ history }) => {
               </center>
               <button className="btn-solid-lg " onClick={handleClick} >
                 ตรวจผลการวัดค่า
+                
                 </button>
   </div>
   
