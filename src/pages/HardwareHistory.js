@@ -28,7 +28,7 @@ const HardwareHistory = ({ history }) => {
 
     const links = document.querySelectorAll('.profile-info li a');
 
-    const [sidebar, setSidebar] = useState(true);
+    const [sidebar, setSidebar] = useState(false);
 
     links.forEach(link => {
       link.addEventListener('mouseenter', () => {
@@ -163,7 +163,7 @@ const HardwareHistory = ({ history }) => {
               <div class="mx-auto py-4 fs-1  mt-5">
               
               <img style={{width: "20%", height: "20%"}} src= "https://cdn-icons-png.flaticon.com/512/6522/6522516.png"  /><br></br>
-              <h1>EIPCA ยินดีต้อนรับ</h1><br></br>
+              <h1 className="font-face-gm">EIPCA ยินดีต้อนรับ</h1><br></br>
               <p class=" py-1  fw-bold " style={{fontSize: "80%"}}>{currentUser.displayName}</p>
               <p class=" py-1  " style={{fontSize: "50%"}}>{currentUser.email}</p>
               </div>
