@@ -41,7 +41,7 @@ const Login = ({ history }) => {
         <div className="row">
           <div className="col-sm-6">
             <div className="logo">
-              <img src={Logo}/>
+              <img src={Logo} style={{width: "75%"}}/>
               
             </div>
           </div>
